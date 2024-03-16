@@ -15,7 +15,7 @@ interface OverFields{
     Cells: Fields
 }
 
-(async function MosRuGet() {
+export async function MosRuGet() {
     const data: OverFields[] = await got.get('https://apidata.mos.ru/v1/datasets/529/rows', {
     searchParams:{
         api_key: 'a131d934-ffcc-4e3a-a3db-b28277d80188'
@@ -29,5 +29,5 @@ interface OverFields{
         WebSite: field.Cells.WebSite,
         WorkingHours: field.Cells.WorkingHours
     }))
-    console.log(JSON.stringify(result, null, 2));
-})()
+    return data;
+}

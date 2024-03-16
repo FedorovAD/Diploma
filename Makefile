@@ -67,9 +67,10 @@ db.local-connect: CONNECTION_STRING=$(DB_CONNECTION_STRING)/$(DB_NAME)
 db.local-connect: db.connect
 
 .PHONY: db.migrate
+db.migrate: DB_CONNECTION_NAME=api-starter
 db.migrate:
 	@echo "migrating..."
-	@sleep 1
+	@sleep 10
 	@cat ./db/migrations/*.sql | psql $(DB_CONNECTION_STRING)/$(DB_CONNECTION_NAME)
 
 .PHONY: db.local-stop
@@ -78,7 +79,7 @@ db.local-stop:
 	@cd .dev/database && docker compose down local-db 
 
 .PHONY: db.local-reset
-db.local-reset: DB_CONNECTION_NAME=api-starter
+db.local-reset: export DB_CONNECTION_NAME=api-starter
 db.local-reset: db.local-stop db.local-start db.migrate
 
 define create-empty-func 

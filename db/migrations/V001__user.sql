@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS places(
 	id serial PRIMARY KEY,
-	name TEXT NOT NULL,
+	name TEXT NOT NULL UNIQUE,
 	place_type TEXT NOT NULL,
 	address	TEXT NOT NULL,
 	latitude numeric,
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS places(
 );
 
 CREATE TABLE IF NOT EXISTS work_time (
-	place_id integer NOT NULL REFERENCES(places.id),
+	place_id integer NOT NULL REFERENCES places (id),
 	id serial PRIMARY KEY,
 	day_of_week TEXT NOT NULL,
 	open_time timestamptz,
