@@ -15,7 +15,7 @@ export async function parse() {
             const title: string = selector(element).find('a.CjnHd.y8A5E.MnbCM').text()
             const titleLink: string = `https://www.afisha.ru/msk/museum/${selector(element).find('a.CjnHd.y8A5E.MnbCM').attr('href')}`
             const titleAddress: string = selector(element).find('.hmVRD.DiLyV').text()
-            const titleScore: number = selector(element).find('.IrSqF.zPI3b._49ey.k96pX').text()
+            const titleScore: number = selector(element).find('.M6BcH').text()
             const typeOfPlace: string = 'Музей'
             objArr.push({
                 title,
@@ -31,3 +31,5 @@ export async function parse() {
     }
     return objArr
 }
+
+//.IrSqF.zPI3b._49ey.k96pX - container id for score
