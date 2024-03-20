@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS places(
 	latitude numeric,
 	longitude numeric,
 	price integer,
-	score numeric,
+	score TEXT,
 	link TEXT NOT NULL
 );
 

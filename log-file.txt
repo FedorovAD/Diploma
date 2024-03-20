@@ -1,7 +1,7 @@
 Название:  Дом Высоцкого на Таганке  Адрес:  Высоцкого, 3, стр. 1  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/dom-vysockogo-na-taganke-7384/  Оценки пользователей:  8.4
 Название:  Галерея искусств Зураба Церетели  Адрес:  Пречистенка, 19  Ссылка:  https://www.afisha.ru/msk/museum//msk/gallery/galereya-iskusstv-zuraba-cereteli-1342/  Оценки пользователей:  7.9
-Название:  Еврейский культурный центр им. Гольдмана  Адрес:  Б.Никитская, 47, стр. 2  Ссылка:  https://www.afisha.ru/msk/museum//msk/showroom/evreyskiy-kulturniy-centr-im-goldmana-851/  Оценки пользователей:  
 Название:  Еврейский музей и центр толерантности  Адрес:  Образцова, 11, стр. 1а, Бахметьевский гараж  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/evreyskiy-muzey-i-centr-tolerantnosti-9208/  Оценки пользователей:  8.8
+Название:  Еврейский культурный центр им. Гольдмана  Адрес:  Б.Никитская, 47, стр. 2  Ссылка:  https://www.afisha.ru/msk/museum//msk/showroom/evreyskiy-kulturniy-centr-im-goldmana-851/  Оценки пользователей:  
 Название:  Пушкинский музей  Адрес:  Волхонка, 12  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-izobrazitelnyh-iskusstv-im-pushkina-7362/  Оценки пользователей:  8.8
 Название:  Третьяковская галерея  Адрес:  Лаврушинский пер., 10  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/tretyakovskaya-galereya-7303/  Оценки пользователей:  8.8
 Название:  Музей космонавтики  Адрес:  просп. Мира, 111  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-kosmonavtiki-7394/  Оценки пользователей:  8.6
@@ -33,7 +33,7 @@
 Название:  Усадьба Салтыковых-Чертковых  Адрес:  Мясницкая, 7, стр. 2  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/usadba-saltykovyh-chertkovyh-10130/  Оценки пользователей:  9.3
 Название:  Дом-музей Пастернака  Адрес:  поселение Внуковское, ДСК «Мичуринец», Павленко, 3  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/dom-muzey-pasternaka-8646/  Оценки пользователей:  9.4
 Название:  Музей экслибриса и миниатюрной книги  Адрес:  Пушечная, 7/5  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-ekslibrisa-i-miniatyurnoy-knigi-7371/  Оценки пользователей:  9.3
-Название:  Открытый клуб  Адрес:  Спиридоновка, 9/2  Ссылка:  https://www.afisha.ru/msk/museum//msk/gallery/otkrytiy-klub-2193/  Оценки пользователей:  9.3
+Название:  Открытый клуб  Адрес:  Спиридоновка, 9/2  Ссылка:  https://www.afisha.ru/msk/museum//msk/gallery/otkrytiy-klub-2193/  Оценки пользователей:  9.1
 Название:  Музей иллюзий  Адрес:  просп. Мира, 119, стр. 55, ВДНХ  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-illyuziy-40648/  Оценки пользователей:  9.2
 Название:  Робостанция  Адрес:  просп. Мира, 119, стр. 2, ВДНХ  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/robostanciya-20372/  Оценки пользователей:  9.2
 Название:  Музей истории телефона  Адрес:  Садовая-Кудринская, 19, стр. 2  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-istorii-telefona-8830/  Оценки пользователей:  9.2
@@ -58,7 +58,7 @@
 Название:  Музей Победы  Адрес:  пл. Победы, 3  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-pobedy-7348/  Оценки пользователей:  8.9
 Название:  «Коломенское»  Адрес:  просп. Андропова, 39  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-zapovednik-kolomenskoe-7299/  Оценки пользователей:  8.9
 Название:  Музей уникальных кукол  Адрес:  Покровка, 13, стр. 2  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-unikalnyh-kukol-7269/  Оценки пользователей:  8.9
-Название:  Музей-усадьба «Мураново»  Адрес:  Пушкинский р-н, дер. Мураново  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-usadba-muranovo-7152/  Оценки пользователей:  9.3
+Название:  Музей-усадьба «Мураново»  Адрес:  Пушкинский р-н, дер. Мураново  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-usadba-muranovo-7152/  Оценки пользователей:  9.1
 Название:  Галерея искусства стран Европы и Америки XIX–XX веков  Адрес:  Волхонка, 14  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/galereya-iskusstva-stran-evropy-i-ameriki-xix-xx-vekov-6785/  Оценки пользователей:  8.9
 Название:  Галеев  Адрес:  Б.Козихинский пер., 19/6, стр. 1  Ссылка:  https://www.afisha.ru/msk/museum//msk/gallery/galeev-1394/  Оценки пользователей:  8.9
 Название:  Гостиный Двор  Адрес:  Ильинка, 4  Ссылка:  https://www.afisha.ru/msk/museum//msk/showroom/gostiniy-dvor-844/  Оценки пользователей:  8.9
@@ -465,7 +465,7 @@
 Название:  Музей воды  Адрес:  Саринский пр., 13  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-vody-8866/  Оценки пользователей:  
 Название:  Музей истории МГУ им. Ломоносова  Адрес:  Ломоносовский просп., 27  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-istorii-mgu-im-lomonosova-8845/  Оценки пользователей:  
 Название:  Мемориальная квартира Пушкина на Арбате  Адрес:  Арбат, 53  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/memorialnaya-kvartira-pushkina-na-arbate-8792/  Оценки пользователей:  
-Название:  Музей-заповедник Пушкина  Адрес:  Одинцовский р-н, пос. Большие Вяземы  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-zapovednik-pushkina-8644/  Оценки пользователей:  8.9
+Название:  Музей-заповедник Пушкина  Адрес:  Одинцовский р-н, пос. Большие Вяземы  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/muzey-zapovednik-pushkina-8644/  Оценки пользователей:  9.1
 Название:  Мемориальный дом-музей академика Королева  Адрес:  1-я Останкинская, 28  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/memorialniy-dom-muziy-akademika-koroleva-8569/  Оценки пользователей:  
 Название:  Литературный музей-центр Паустовского  Адрес:  Кузьминская, 8  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/literaturniy-muziy-centr-paustovskogo-8562/  Оценки пользователей:  
 Название:  Кадашевская слобода  Адрес:  Кадашевский туп., 2, стр. 5  Ссылка:  https://www.afisha.ru/msk/museum//msk/museum/kadashevskaya-sloboda-8450/  Оценки пользователей:  
@@ -559,9 +559,9 @@
 Название:  Международный художественный фонд  Адрес:  Балакиревский пер., 2/26  Ссылка:  https://www.afisha.ru/msk/museum//msk/showroom/mezhdunarodniy-hudozhestvenniy-fond-750/  Оценки пользователей:  
 Название:  Усадьба Фряново  Адрес:  Щелково, Щелковский р-н, пос. Фряново, пл. Ленина, 2  Ссылка:  https://www.afisha.ru/msk/museum//shchelkovo/museum/usadba-fryanovo-8927/  Оценки пользователей:  9.3
 Название:  Дубровицы  Адрес:  Подольск, Подольский р-н, пос. Дубровицы  Ссылка:  https://www.afisha.ru/msk/museum//podolsk/museum/dubrovicy-7510/  Оценки пользователей:  9.3
-Название:  Шахматово  Адрес:  Солнечногорск, Солнечногорский р-н, дер. Тараканово  Ссылка:  https://www.afisha.ru/msk/museum//solnechnogorsk/museum/shahmatovo-7154/  Оценки пользователей:  9.5
+Название:  Шахматово  Адрес:  Солнечногорск, Солнечногорский р-н, дер. Тараканово  Ссылка:  https://www.afisha.ru/msk/museum//solnechnogorsk/museum/shahmatovo-7154/  Оценки пользователей:  9.3
 Название:  Лопасня-Зачатьевское  Адрес:  Чехов, Пушкина, 10  Ссылка:  https://www.afisha.ru/msk/museum//chehov/museum/lopasnya-zachatevskoe-9003/  Оценки пользователей:  9.1
-Название:  Дом-музей Чайковского  Адрес:  Клин, Чайковского, 48  Ссылка:  https://www.afisha.ru/msk/museum//klin/museum/dom-muzey-chaykovskogo-7153/  Оценки пользователей:  8.7
+Название:  Дом-музей Чайковского  Адрес:  Клин, Чайковского, 48  Ссылка:  https://www.afisha.ru/msk/museum//klin/museum/dom-muzey-chaykovskogo-7153/  Оценки пользователей:  9
 Название:  Дом-музей Марины Цветаевой  Адрес:  Королев, Цветаевой, 15  Ссылка:  https://www.afisha.ru/msk/museum//korolev/museum/dom-muzey-mariny-cvetaeviy-8678/  Оценки пользователей:  8.9
 Название:  Новый Иерусалим  Адрес:  Истра, Ново-Иерусалимская наб., 1  Ссылка:  https://www.afisha.ru/msk/museum//istra/museum/noviy-ierusalim-9061/  Оценки пользователей:  8.8
 Название:  Музей немецких антифашистов  Адрес:  Красногорск, Народного Ополчения, 15  Ссылка:  https://www.afisha.ru/msk/museum//krasnogorsk/museum/muzey-nemeckih-antifashistov-8703/  Оценки пользователей:  8.8
