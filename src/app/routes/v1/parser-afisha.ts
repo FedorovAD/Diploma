@@ -13,7 +13,7 @@ export async function parse() {
         const selector = await getHTML(`https://www.afisha.ru/msk/museum/page${i + 1}/`)
         selector('div._yjkz').each((i: number, element: any) => {
             const title: string = selector(element).find('a.CjnHd.y8A5E.MnbCM').text()
-            const titleLink: string = `https://www.afisha.ru/${selector(element).find('a.CjnHd.y8A5E.MnbCM').attr('href')}`
+            const titleLink: string = `https://www.afisha.ru${selector(element).find('a.CjnHd.y8A5E.MnbCM').attr('href')}`
             const titleAddress: string = selector(element).find('.hmVRD.DiLyV').text()
             const titleScore: number = selector(element).find('.M6BcH').text()
             const typeOfPlace: string = 'Музей'
