@@ -5,6 +5,7 @@ import { afishaDataPush } from './afisha-data-push';
 import { afishaDataPushCinema } from './afisha-data-push-cinema';
 import { afishaDataPushTheatre } from './afisha-data-push-theatre';
 import { parsePrice } from './parser-afisha-pricelist-theatre-museum';
+import { coords } from './geo-coding';
 
 
 export const v1Router: Router = Router();
@@ -15,3 +16,4 @@ v1Router.post('/afisha-data-push', afishaDataPush);
 v1Router.post('/afisha-data-push-cinema', afishaDataPushCinema);
 v1Router.post('/afisha-data-push-theatre', afishaDataPushTheatre)
 v1Router.post('/price-update', parsePrice)
+v1Router.post('/coords-get', coords)
