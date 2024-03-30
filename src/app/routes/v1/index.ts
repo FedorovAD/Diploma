@@ -6,6 +6,13 @@ import { afishaDataPushCinema } from './afisha-data-push-cinema';
 import { afishaDataPushTheatre } from './afisha-data-push-theatre';
 import { parsePrice } from './parser-afisha-pricelist-theatre-museum';
 import { coords } from './geo-coding';
+import { myLocation } from './my-coords';
+import { getDistanceFromLatLonInKm } from './distance-check';
+
+
+
+
+
 
 
 export const v1Router: Router = Router();
@@ -17,3 +24,5 @@ v1Router.post('/afisha-data-push-cinema', afishaDataPushCinema);
 v1Router.post('/afisha-data-push-theatre', afishaDataPushTheatre)
 v1Router.post('/price-update', parsePrice)
 v1Router.post('/coords-get', coords)
+v1Router.get('/my-location', myLocation)
+v1Router.post('/distance-between', getDistanceFromLatLonInKm)

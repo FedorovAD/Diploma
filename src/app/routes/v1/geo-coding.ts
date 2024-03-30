@@ -16,6 +16,10 @@ function goodAddr(addr: string){
         if (goodAdr[it] == 'б-р'){
             goodAdr[it] = 'бульвар';
         }
+        if (goodAdr[it].includes('/')){
+            const slashCut: string[] = goodAdr[it].split('/')
+            goodAdr[it] = slashCut[0]
+        }
         if (goodAdr[it] == 'просп.'){
             goodAdr[it] = 'проспект';
         }
