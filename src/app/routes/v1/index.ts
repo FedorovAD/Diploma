@@ -8,6 +8,7 @@ import { parsePrice } from './parser-afisha-pricelist-theatre-museum';
 import { coords } from './geo-coding';
 import { myLocation } from './my-coords';
 import { getDistanceFromLatLonInKm } from './distance-check';
+import { workTimePush } from './time-of-work-push';
 
 
 
@@ -26,3 +27,4 @@ v1Router.post('/price-update', parsePrice)
 v1Router.post('/coords-get', coords)
 v1Router.get('/my-location', myLocation)
 v1Router.post('/distance-between', getDistanceFromLatLonInKm)
+v1Router.post('/work-time-push', workTimePush)

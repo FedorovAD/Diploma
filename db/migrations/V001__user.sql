@@ -7,13 +7,7 @@ CREATE TABLE IF NOT EXISTS places(
 	longitude numeric,
 	price TEXT,
 	score TEXT,
-	link TEXT NOT NULL
+	link TEXT NOT NULL,
+	work_time JSONB
 );
 
-CREATE TABLE IF NOT EXISTS work_time (
-	place_id integer NOT NULL REFERENCES places (id),
-	id serial PRIMARY KEY,
-	day_of_week TEXT NOT NULL,
-	open_time timestamptz,
-	close_time timestamptz
-);

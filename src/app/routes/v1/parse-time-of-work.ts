@@ -3,17 +3,23 @@ const cheerio = require('cheerio')
 
 
 
-async function parse() {
+export async function getTimeWork(link: string) { //link: string
     const getHTML = async (url: string) => {
         const {data} = await axios.get(url);
         return cheerio.load(data);
     };
     const objArr: any = [];
-    const selector: any = await getHTML(`https://www.afisha.ru/msk/showroom/vdnh-751/`)
-    let timeStr: string[] = selector('[aria-label=\'Часы работы\']').text().slice(11).split(' ')
+    if (!link.includes('http')){
+        const wrongLink: Record<string, string> = {
+            '1': 'wrong_link',
+        }
+        return  wrongLink
+    }
+    const selector: any = await getHTML(`${link}`)//${link}
+    let timeStr: string[] = selector('[aria-label=\'Часы работы\']').text().slice(11).split(/ | /)
     console.log(timeStr)
 
-    if (timeStr[0] = 'круглосуточно'){
+    if (timeStr[0] == 'круглосуточно'){
         const always: Record<string, string> = {
             '1': '00.00-24.00',
             '2': '00.00-24.00',
@@ -26,15 +32,15 @@ async function parse() {
         }
         return always
     }
-    if (timeStr[0] = ''){
+    if (timeStr[0] == ''){
         const  idk: Record<string, string> = {
-            '1': '',
-            '2': '',
-            '3': '',
-            '4': '',
-            '5': '',
-            '6': '',
-            '7': '',
+            '1': 'unknown',
+            '2': 'unknown',
+            '3': 'unknown',
+            '4': 'unknown',
+            '5': 'unknown',
+            '6': 'unknown',
+            '7': 'unknown',
 
         }
         return idk
@@ -157,11 +163,16 @@ async function parse() {
         
         continue;
     }
+
+    for (let iter = 1; iter <= 7; iter++){
+        if (ans[iter] == undefined){
+            ans[iter] = ''
+        }
+    }
     console.log(ans)
 
             
     
-    return timeStr
+    return ans
 }
 
-parse()
