@@ -25,6 +25,4 @@ v1Router.post('/afisha-data-push-cinema', afishaDataPushCinema);
 v1Router.post('/afisha-data-push-theatre', afishaDataPushTheatre)
 v1Router.post('/price-update', parsePrice)
 v1Router.post('/coords-get', coords)
-v1Router.get('/my-location', myLocation)
-v1Router.post('/distance-between', getDistanceFromLatLonInKm)
 v1Router.post('/work-time-push', workTimePush)

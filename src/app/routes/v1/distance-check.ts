@@ -6,7 +6,7 @@ import { disconnect } from "process";
 
 
 
-export const getDistanceFromLatLonInKm = async (req: Request, res:Response): Promise<Response> => {
+export async function getDistanceFromLatLonInKm(loc: string, dis: number) {
 
     const {rows:places} = await dbClient.query<{id: number, latitude: number, longitude: number}>(`
         SELECT id, latitude, longitude
@@ -15,14 +15,12 @@ export const getDistanceFromLatLonInKm = async (req: Request, res:Response): Pro
             AND address != ''  
         `
     );
-    const needDis: number = 4
+    const needDis: number = dis
     let ans: Record<number, number> = {}
 
-    const myLoc: any = await myLocation('москва константина царева 12')
+    const myLoc: any = await myLocation(`${loc}`)
     if (myLoc == false){
-        return res.status(404).json({
-            message: 'Location not found'
-        })
+        return 'Location not found'
     }
     const lat1: number = myLoc[0].lat
     const lon1: number = myLoc[0].lon
@@ -46,7 +44,7 @@ export const getDistanceFromLatLonInKm = async (req: Request, res:Response): Pro
             ans[it.id] = distance
         }
   }
-  return res.status(200).json(ans);
+  return ans;
 }
 function deg2rad(deg: number) {
     return deg * (Math.PI/180)
