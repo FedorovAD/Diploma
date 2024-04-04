@@ -1,8 +1,5 @@
 import { myLocation } from "./my-coords";
-import { Request, Response } from 'express';
-import { QueryResult } from 'pg';
 import { dbClient } from '../../lib/db-client';
-import { disconnect } from "process";
 
 
 

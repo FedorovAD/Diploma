@@ -4,6 +4,7 @@ import { time } from "console"
 function timeCheck(time: any){
     const currentDate = new Date();
     const day = currentDate.getDay() + 1;
+    //const nowHour = 14; 
     const nowHour = currentDate.getHours()
     const nowMinutes = currentDate.getMinutes()
     const table = time[day]

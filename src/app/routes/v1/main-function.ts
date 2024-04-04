@@ -48,7 +48,8 @@ async function bestPlaces(){
         }
         ans[(+testPlace)] = it.id
     }
-
-    console.log(ans)
+    const ansRes: any[] =  Object.entries(ans)
+    ansRes.sort((a:any , b: any) => a[0] - b[0])
+    console.log(ansRes)
 }
 bestPlaces()
