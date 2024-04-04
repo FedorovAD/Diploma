@@ -13,12 +13,14 @@ function timeCheck(time: any){
         return null
     }
     const parseTable = table.split('–')
-    if (+parseTable[1].slice(0,2)< nowHour || nowHour <  (+parseTable[0].slice(0,2))){
+    console.log(+parseTable[0].slice(0,2), +parseTable[1].slice(0,2))
+    console.log(nowHour)
+    if (+parseTable[1].slice(0,2) <=  nowHour || nowHour <  (+parseTable[0].slice(0,2))){
         return null
     } else{
         const minutesLeft: number = ((((+parseTable[1].slice(0,2)) - nowHour) * 60) + (+parseTable[1].slice(3, 5)) - nowMinutes)
         const minutesTotal: number = ((((+parseTable[1].slice(0,2)) - (+parseTable[0].slice(0,2))) * 60 ) + (+parseTable[1].slice(3, 5)) - (+parseTable[0].slice(3, 5)))
-        return String(((minutesLeft * 100)/minutesTotal))
+        return String(100 - ((minutesLeft * 100)/minutesTotal))
     } 
 
 
@@ -40,9 +42,9 @@ function priceCheck(avgPrice: string, price: number){
 
 function scoreCheck(score: string){
     if (isNaN(+score)){
-        return 0
+        return 100
     }else {
-        return (10 - (+score))
+        return (100 - (+score * 10))
     }
 
 }
