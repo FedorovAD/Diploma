@@ -2,6 +2,7 @@ import { myLocation } from "./my-coords";
 import { getDistanceFromLatLonInKm } from "./distance-check";
 import { dbClient } from '../../lib/db-client';
 import { lsm } from "./least-squares-method";
+import { Request, Response } from 'express';
 
 
 interface Info{
@@ -13,10 +14,8 @@ interface Info{
 }
 
 
-async function bestPlaces(){
-    const p = 600
-    const r = 4
-    const suitablePlaces: any = await getDistanceFromLatLonInKm(`москва константина царева 12`, r)
+export const bestPlaces = async (req: Request, res: Response): Promise<Response> =>{
+    const suitablePlaces: any = await getDistanceFromLatLonInKm(`москва ${req.body.inputAddress}}`, req.body.inputRadius)
     //console.log(suitablePlaces)
 
     let dataInfo: any = []
@@ -38,11 +37,11 @@ async function bestPlaces(){
         dataInfo.push(zachem)
     }
 
-    console.log(dataInfo)
+    //console.log(dataInfo)
     let ans: Record<number, number> = {}
 
     for (const it of dataInfo){
-        const testPlace = lsm(it, r, p)
+        const testPlace = lsm(it, req.body.inputRadius, req.body.inputPrice)
         if (testPlace == null){
             continue;
         }
@@ -51,5 +50,21 @@ async function bestPlaces(){
     const ansRes: any[] =  Object.entries(ans)
     ansRes.sort((a:any , b: any) => a[0] - b[0])
     console.log(ansRes)
+    let returnData: object[]= [] 
+    for (const it of ansRes){
+        const {rows:place} = await dbClient.query<{name: string, place_type: string, link: string}>(`
+            SELECT name, place_type, link
+            FROM places
+            WHERE id = ${it[1]} 
+            `
+        );
+        const readyToPushFront = {
+            name: place[0].name,
+            place_type: place[0].place_type,
+            link: place[0].link
+        }
+        returnData.push(readyToPushFront)
+    }
+
+    return res.status(200).json(returnData);
 }
-bestPlaces()
