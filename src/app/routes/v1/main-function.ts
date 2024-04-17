@@ -15,7 +15,7 @@ interface Info{
 
 
 export const bestPlaces = async (req: Request, res: Response): Promise<Response> =>{
-    const suitablePlaces: any = await getDistanceFromLatLonInKm(`москва ${req.body.inputAddress}}`, req.body.inputRadius)
+    const suitablePlaces: any = await getDistanceFromLatLonInKm(`москва ${req.body.address}}`, req.body.distance)
     //console.log(suitablePlaces)
 
     let dataInfo: any = []
@@ -41,7 +41,7 @@ export const bestPlaces = async (req: Request, res: Response): Promise<Response>
     let ans: Record<number, number> = {}
 
     for (const it of dataInfo){
-        const testPlace = lsm(it, req.body.inputRadius, req.body.inputPrice)
+        const testPlace = lsm(it, req.body.distance, req.body.price)
         if (testPlace == null){
             continue;
         }
