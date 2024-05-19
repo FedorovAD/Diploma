@@ -7,11 +7,13 @@ function timeCheck(time: any){
     const nowHour = 14; 
     //const nowHour = currentDate.getHours()
     const nowMinutes = currentDate.getMinutes()
-    const table = time[day]
+    let table = time[day]
     if (table == ''){
-        return null
+        table = '00.00–23.59'
+        //return null
     }else if (table == 'unknown'){
-        return null
+        table = '00.00–23.59'
+        //return null
     }
     const parseTable = table.split('–')
     console.log(+parseTable[0].slice(0,2), +parseTable[1].slice(0,2))
