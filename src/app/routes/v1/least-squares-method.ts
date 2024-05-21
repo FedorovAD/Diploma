@@ -9,8 +9,8 @@ function timeCheck(time: any){
     const nowMinutes = currentDate.getMinutes()
     let table = time[day]
     if (table == ''){
-        table = '00.00–23.59'
-        //return null
+        //table = '00.00–23.59'
+        return null
     }else if (table == 'unknown'){
         table = '00.00–23.59'
         //return null
